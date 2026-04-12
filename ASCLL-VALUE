@@ -1,0 +1,15 @@
+
+a = [1, 2, 3, 4, 5]    # Create a list
+
+b = [1, 2, 3, 4, 5]    # Create another list with same values
+
+c = a                   # c points to the SAME list as a
+
+
+print(a is c)          # True - same object!
+
+print(a is b)          # False - different objects
+
+print(a is not c)      # False
+
+print(a is not b)      # True
