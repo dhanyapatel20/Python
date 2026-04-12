@@ -1,0 +1,7 @@
+a=abcdefghijklmnopqrstuvwxyz
+
+if not a:
+    print(true)
+    eles:
+         print(false)
+    
